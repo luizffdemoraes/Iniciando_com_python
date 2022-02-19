@@ -21,3 +21,10 @@ family = {
 }
 
 print(family)
+
+for car in cars:
+    print(car + " = " + cars[car])
+
+for key, value in cars.items():
+    print('-----------------')
+    print(key + " = " + value)
