@@ -10,4 +10,14 @@ def call_numbers_with_limit(limit):
         print(number)
 
 
-call_numbers_with_limit(50)
+# call_numbers_with_limit(50)
+
+def calculator(x=10, y=15):
+    print(x-y)
+
+calculator(y=-10,x=5)
+
+calculator()
+
+result = calculator(5)
+print("Result is", result)
